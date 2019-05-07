@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Chat-Server",
+            "type": "dart-cli",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/server.dart"
+        },
+
+        {
+            "name": "WebSocket Client",
+            "type": "dart-cli",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/wsclient.dart"
+        },
+
+        {
+            "name": "TCP Client",
+            "type": "dart-cli",
+            "request": "launch",
+            "program": "${workspaceRoot}/bin/tcpclient.dart"
+        }
+
+        // {
+        //     "name": "Dart command line",
+        //     "type": "dart-cli",
+        //     "request": "launch",
+        //     "program": "${workspaceRoot}/bin/main.dart"
+        // }
+    ]
+}
